@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+body{
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+section{
+    background-color: #fff;
+    width: 20rem;
+    height: 31rem;
+    border-radius: 12px;
+    box-shadow: 0rem 1rem 1rem hsl(224, 23%, 55%, 30%);
+}
+img.ilustration{
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+h1{
+    font-weight: 900;
+    font-size: 20px;
+    color: hsl(223, 47%, 23%);
+}
+p.descriptionText{
+    margin: 1rem 1rem 0rem 1rem;
+    font-size: 12px;
+    color: hsl(224, 23%, 55%);
+    font-style: normal;
+    line-height: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+/* DESCRIPTION TYPE OF PLAN */
+.offerBox{
+    background-color: hsl(225, 100%, 98%);
+    width: 90%;
+    height: 4rem;
+    margin: 1rem 1rem 0rem 1rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    align-items: center;
+}
+.icon{
+    width: 2.3rem;
+}
+.offer{
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 0rem 0rem 1rem;
+}
+.plan{
+    font-size: 12px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    width: 5rem;
+}
+.price{
+    font-size: 12px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+.change{
+    background: none;
+    border: none;
+    font-size: 10px;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    margin: 0rem 0rem 0rem 2rem;
+}
+.change:hover{
+    color: hsla(245, 75%, 52%, 0.6);
+    text-decoration: none;
+}
+.payment{
+    background-color: hsl(245, 75%, 52%);
+    width: 90%;
+    height: 2rem;
+    margin: 1rem 1rem 0rem 1rem;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    box-shadow: 0rem 1rem 1rem hsl(224, 23%, 55%, 30%);
+}
+.payment:hover{
+    background-color: hsla(245, 75%, 52%, 0.6);
+}
+.cancel{
+    height: 2rem;
+    margin: 1rem 1rem 0rem 1rem;
+    border: none;
+    background: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 10px;
+}
+.cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
